@@ -9,6 +9,18 @@
       href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
     />
     <style>
+
+      /* tema claro */
+      body {
+        background-color: #ffffff;
+        color: #000000;
+      }
+
+      /* tema oscuro */
+      body.dark-theme {
+        background-color: #1a1b1b;
+        color: #ffffff;
+      }
       .event-card {
         margin-bottom: 20px;
       }
@@ -79,6 +91,9 @@
             <a class="nav-item nav-link item-" href="index.html">Inicio</a>
             <a class="nav-item nav-link item-" href="trucos_tecnicas.html">Trucos y técnicas</a>
             <a class="nav-item nav-link item-" href="snow_est.html">Snowboarders estrella</a>
+            <button id="theme-toggle" onclick="toggleTheme()" type="button" class="btn btn-outline-light">
+              Cambiar tema
+            </button>
           </div>
         </div>
       </nav> 

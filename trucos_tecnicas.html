@@ -12,6 +12,17 @@
       crossorigin="anonymous"
     />
     <style>
+      /* tema claro */
+      body {
+        background-color: #ffffff;
+        color: #000000;
+      }
+
+      /* tema oscuro */
+      body.dark-theme {
+        background-color: #1a1b1b;
+        color: #ffffff;
+      }
       .navbar {
         position: absolute;
         top: 0;
@@ -79,6 +90,9 @@
               <a class="nav-item nav-link item-" href="index.html">Inicio</a>
               <a class="nav-item nav-link item-" href="snow_est.html">Snowboarders estrella</a>
               <a class="nav-item nav-link item-" href="eventos_comp.html">Eventos y competencias</a>
+              <button id="theme-toggle" onclick="toggleTheme()" type="button" class="btn btn-outline-light">
+                Cambiar tema
+              </button>
             </div>
           </div>
         </nav> 

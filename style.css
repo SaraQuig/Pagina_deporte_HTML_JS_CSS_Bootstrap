@@ -1,0 +1,80 @@
+.navbar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+    background-color: transparent;
+  }
+
+  .navbar-nav .nav-link {
+    color: #fff; /* Color del texto del menú */
+  }
+
+  .image-container {
+    position: relative;
+  }
+
+  .image-container img {
+    position: relative;
+    z-index: -1;
+  }
+  .item-:hover {
+    background-color: rgba(220, 220, 220, 0.311);
+  }
+  .parrafo {
+    position: absolute;
+    bottom: 260px;
+    left: 50px;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+  }
+  .parrafo h1 {
+    margin-bottom: 10px;
+  }
+  /*Diseño de la encuesta*/
+  .form-container {
+        max-width: 400px;
+        margin: 0 auto;
+        padding: 20px;
+        background-color: #f8f9fa;
+        border: 1px solid #e2e8f0;
+        border-radius: 5px;
+    }
+
+    .form-container h1 {
+        text-align: center;
+    }
+
+    .form-container input,
+    .form-container textarea {
+        margin-bottom: 10px;
+        width: 100%;
+        padding: 8px;
+        border: 1px solid #ced4da;
+        border-radius: 3px;
+    }
+
+    .form-container button {
+        width: 100%;
+        padding: 8px;
+        background-color: #007bff;
+        color: #fff;
+        border: none;
+        border-radius: 3px;
+        cursor: pointer;
+    }
+
+    .form-container button:hover {
+        background-color: #0069d9;
+    }
+
+    .form-container .success-message {
+        margin-top: 10px;
+        padding: 10px;
+        background-color: #d4edda;
+        color: #155724;
+        border: 1px solid #c3e6cb;
+        border-radius: 3px;
+    }

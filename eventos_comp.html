@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Eventos y Competencias de Snowboard</title>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <style>
+      .event-card {
+        margin-bottom: 20px;
+      }
+      .navbar {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 9999;
+        background-color: transparent;
+      }
+
+      .navbar-nav .nav-link {
+        color: #ffffff; /* Color del texto del menú */
+      }
+
+      .image-container {
+        position: relative;
+      }
+
+      .image-container img {
+        position: relative;
+        z-index: -1;
+      }
+      .item-:hover {
+        background-color: rgba(220, 220, 220, 0.311);
+      }
+      .parrafo {
+        position: absolute;
+        bottom: 260px;
+        left: 50px;
+        color: #fff;
+        background-color: rgba(0, 0, 0, 0.5);
+        padding: 20px;
+      }
+      .parrafo h1 {
+        margin-bottom: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <!--Contenedor padre-->
+    <div class="container-fluid">
+      <div class="image-container">
+        <img src="img/img-6.jpeg" alt="" width="100%" height="100%" />
+        <div class="parrafo">
+          <p>Descubre la élite del snowboarding: los audaces snowboarders que desafían los límites, dominan las pistas más empinadas y elevan este deporte a nuevas alturas de adrenalina y estilo.</p>
+        </div>
+      </div>
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand" href="index.html"
+          ><img src="img/logo.png" alt="Logo de la pagina web" width="150px"
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <!-- <a class="nav-item nav-link" href="#">INICIO</a> -->
+            <a class="nav-item nav-link item-" href="index.html">Inicio</a>
+            <a class="nav-item nav-link item-" href="trucos_tecnicas.html">Trucos y técnicas</a>
+            <a class="nav-item nav-link item-" href="eventos_comp.html">Eventos y competencias</a>
+          </div>
+        </div>
+      </nav> 
+    </div>
+
+
+    <div class="container">
+      <h2>Eventos y Competencias de Snowboard</h2>
+      <hr />
+
+      <div class="row">
+        <div class="col-md-6">
+          <div class="event-card">
+            <img src="event1.jpg" alt="Evento 1" class="img-fluid" />
+            <h4>Competencia de Snowboard X</h4>
+            <p><strong>Fecha:</strong> 10-12 de febrero de 2023</p>
+            <p><strong>Ubicación:</strong> Ciudad ABC, País XYZ</p>
+            <p>
+              <strong>Detalles:</strong> ¡Únete a la competencia de snowboard
+              más emocionante del año! Categorías para todos los niveles, desde
+              principiantes hasta profesionales. Grandes premios en efectivo y
+              regalos para los ganadores.
+            </p>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="event-card">
+            <img src="event2.jpg" alt="Evento 2" class="img-fluid" />
+            <h4>Tour Mundial de Snowboard</h4>
+            <p><strong>Fecha:</strong> 25-28 de marzo de 2023</p>
+            <p><strong>Ubicación:</strong> Montaña XYZ, País ABC</p>
+            <p>
+              <strong>Detalles:</strong> El Tour Mundial de Snowboard regresa
+              con las mejores competencias y los riders más destacados del
+              mundo. ¡No te pierdas las increíbles acrobacias y la intensa
+              competencia mientras los atletas se enfrentan por el título
+              mundial!
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <h3>Noticias y Actualizaciones</h3>
+      <div class="row">
+        <div class="col-md-6">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Campeonato Nacional de Snowboard</h5>
+              <p class="card-text">
+                El Campeonato Nacional de Snowboard se llevó a cabo el pasado
+                fin de semana con una gran participación de riders de todo el
+                país. ¡Revive los momentos más emocionantes en nuestro álbum de
+                fotos y mira los videos destacados!
+              </p>
+              <a href="#" class="btn btn-primary">Leer más</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">
+                Evento Especial para Jóvenes Snowboarders
+              </h5>
+              <p class="card-text">
+                ¡Atención, jóvenes snowboarders! Este sábado tendremos un evento
+                especial diseñado exclusivamente para ustedes. Ven y muestra tus
+                habilidades en un ambiente divertido y competitivo. ¡Habrá
+                premios especiales para los mejores riders de cada categoría!
+              </p>
+              <a href="#" class="btn btn-primary">Más detalles</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.1/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </body>
+</html>
